@@ -2,18 +2,17 @@
 
 var nome1 = prompt("inserisci il tuo nome");
 var nome2 = prompt("inserisci il tuo nome");
-var message;
 
 if (nome1.length > nome2.length) {
-  console.log("il numero pi lunga " + nome1);
+  console.log(nome2);
+  console.log(nome1);
+
 
   // console.log();
-} else if ( nome1.length > nome2.length) {
-  console.log("il numero pi corto " + nome2);
+} else if ( nome2.length > nome1.length) {
+  console.log(nome1);
+  console.log(nome2);
 
 } else {
 console.log(nome1== nome2);
 }
-
-console.log("il numero pi corto " + nome1);
-console.log("il numero pi lungo " + nome2);
